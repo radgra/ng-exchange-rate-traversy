@@ -1,0 +1,23 @@
+:host {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+input {
+    padding:5px;
+    border-radius: 5px;
+    border-style: double;
+    font-size: 20px;
+    text-align: right;
+}
+
+select {
+    margin-right: 15px;
+    font-size: 20px;
+    padding:5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #5fbaa5;
+}
