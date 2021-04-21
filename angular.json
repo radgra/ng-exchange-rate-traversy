@@ -122,8 +122,13 @@
               "devServerTarget": "ng-exchange-rate:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng-exchange-rate"
 }
