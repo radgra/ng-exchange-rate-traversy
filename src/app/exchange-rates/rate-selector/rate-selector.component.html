@@ -1,5 +1,0 @@
-<select name="currency" [ngModel]="selectedCurrency" (ngModelChange)="onCurrencySelected($event)">
-    <option [ngValue]="curr" *ngFor="let curr of currencies">{{curr.name}}</option>
-</select>
-<input type="text" class="form-control"  [(ngModel)]="rate.value" name="name" (keyup)="onValueChange($event)"
-#name="ngModel">

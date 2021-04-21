@@ -1,5 +1,0 @@
-<ng-container *ngFor="let rate of exchangeRates;let i = index">
-    <app-rate-selector [currencies]="currencies" [rate]="rate" 
-        (onCurrencyChange)="onCurrencyChange($event, i)"
-        (onRateValueChange)="onRateValueChange($event, i)"></app-rate-selector>
-</ng-container>
